@@ -1,0 +1,106 @@
+.title{
+    margin-left: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 45px;
+}
+
+.title_line{
+    width: 23px;
+    border: 2px solid #4E6DCB;
+    transform: rotate(90deg);
+    margin-right: 16px;
+}
+
+.business_title{
+    color: rgba(78, 109, 203, 0.5);
+}
+
+.color{
+    color: #4E6DCB;
+}
+
+/* .dashborad_title{
+    margin-left: 32px;
+} */
+
+
+.bi-card{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    width: 358.64px;
+    height: 182.39px;
+    background-color: #ffffff;
+}
+
+  .card-data-up{
+    border-radius: 50%;
+    width: 76.81px;
+    height: 76.94px;
+    background: #FFF3A1;
+    position: relative;
+  }
+  
+  .card-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22px;
+  }
+
+  .card-data-up p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    /* line-height: 31px; */
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    /* text-align: center; */
+    color: #121212;
+  }
+
+  .card_para{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    color: #7E7E7E;
+    padding-top: 24px;
+  }
+
+  .first_para{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    width: 240px;
+    color: #121212;
+    text-align: center;
+  }
+
+
+.card-data-dn{
+    margin-top: 1px;
+    background-color: rgb(255, 224, 11);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+}
+
+.card-data-dn p{
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}

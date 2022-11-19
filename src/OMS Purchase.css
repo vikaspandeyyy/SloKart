@@ -1,0 +1,96 @@
+#click-data {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#click-data p {
+  cursor: pointer;
+  color: gray;
+  transition: 300ms;
+}
+#click-data p:hover {
+  color: black;
+  transform: scale(1.15);
+}
+#OMS-main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+#PurchaseOrderDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#PurchaseOrderDetail div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#PurchaseOrderSmallWindow {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+  height: fit-content;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 21.5%;
+  padding: 20px;
+}
+.order-list-box {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+  width: 76.5%;
+  /* margin: auto; */
+}
+.order-list h2 {
+  text-align: center;
+}
+.order-list-box {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.order-list-input-box {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.176);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-list-input-left {
+  display: flex;
+  width: 40%;
+  align-items: center;
+}
+.order-list-input-left input {
+  width: 95%;
+  height: 28px;
+}
+.order-list-input-left img {
+  background-color: navy;
+  padding: 5px;
+  border-radius: 2px;
+}
+.order-list-input-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.order-list-input-right-filters {
+  border: none;
+  background-color: white;
+  padding: 5px;
+}
+table th,
+td {
+  font-size: 12px;
+  padding-top: 8px;
+}

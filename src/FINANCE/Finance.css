@@ -1,0 +1,99 @@
+.title{
+    margin-left: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.title_line{
+    width: 23px;
+    border: 2px solid #4E6DCB;
+    transform: rotate(90deg);
+    margin-right: 16px;
+}
+
+.Finance_title{
+    color: rgba(78, 109, 203, 0.5);
+}
+
+.table_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.color{
+    color: #4E6DCB;
+}
+
+.dashborad_title{
+    margin-left: 32px;
+}
+
+.searchIcon{
+    width: 31.73px;
+    height: 31.71px;
+    background: #002984;
+    border-radius: 3px;
+}
+
+.order-list-input-left {
+    background-color: #ffffff;
+    border: 0.541667px solid rgba(18, 18, 18, 0.16);
+    border-radius: 3.27851px;
+    width: 733.24px;
+    height: 39.97px;
+}
+
+.order-list-input-left input {
+    outline: none;
+    margin-left: 5px;
+    border: none;
+}
+
+.order-list-input-left input ::placeholder{
+    font-family: 'Inter';
+    color: rgba(18, 18, 18, 0.47);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.order-list-input-right-filters{
+    width: 137.25px;
+    height: 39.97px;
+    /* left: 1366.47px;
+    top: 1436.64px; */
+    background: #FFFFFF;
+    border: 0.54px solid rgba(0, 0, 0, 0.16);
+    border-radius: 3.28px;
+}
+
+.order-list-input-box{
+    width: 1393px;
+    height: 55.96px;
+    /* left: 447.72px;
+    top: 1427.65px; */
+    background: #F6F6F6;
+    border-radius: 3.28px;
+}
+
+/* .status{
+    background-color: #4E6DCB;
+} */
+
+.table_id{
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
+.table_background{
+    background-color: #4E6DCB;
+    width: 434px;
+    height: 41px;
+}

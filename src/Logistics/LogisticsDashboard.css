@@ -1,0 +1,28 @@
+  .log-card {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 8px;
+    width: 20%;
+  }
+  .log-card-up h1 {
+    padding-left: 10px;
+    font-size: 24px;
+  }
+  .log-card-up-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 64px;
+  }
+
+  
+  .log-card-dn-p {
+    padding: 10px 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(255, 224, 11);
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+  }
