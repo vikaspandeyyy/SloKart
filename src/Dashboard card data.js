@@ -229,6 +229,7 @@ const FinanceCardData = [
   },
 ];
 
+
 export { OMSCardData };
 export { InventoryCardData };
 export { WarehouseCardData };

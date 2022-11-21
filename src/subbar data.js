@@ -46,6 +46,7 @@ import BIinsightsData from './BI/BIinsightsData'
 import BIDashboard from './BI/BIDashboard';
 import BIstrastegies from './BI/BIstrastegies'
 
+
 const OMSSubbarData = [
   {
     click: OMSDashboard,
@@ -204,7 +205,7 @@ const FinanceSubbarData = [
 
 
 const AccountingSubbarData = [
-  { click: "", 
+  { click: '', 
   // img: dashboardImg, 
   name: "Dashboard" },
   { click: "", 
